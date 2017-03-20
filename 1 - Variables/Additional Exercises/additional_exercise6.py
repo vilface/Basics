@@ -10,6 +10,6 @@ print()
 holidayMoney = int(input("Please enter amount of money you will take on holiday: "))
 exchangeRate = float(input("Please enter the current pound-euro exchange rate: "))
 print()
-#this is a div calculation
-euroHolidayMoney = holidayMoney//exchangeRate
+#this is a multiplication calculation
+euroHolidayMoney = holidayMoney*exchangeRate
 print("You will receive {0} Euros for your holiday.".format(euroHolidayMoney))
